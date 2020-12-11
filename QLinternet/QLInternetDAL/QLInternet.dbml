@@ -1,0 +1,35 @@
+﻿<?xml version="1.0" encoding="utf-8"?><Database Name="QLInternet" Class="QLInternetDataContext" xmlns="http://schemas.microsoft.com/linqtosql/dbml/2007">
+  <Connection Mode="AppSettings" ConnectionString="Data Source=DESKTOP-EHEPH4R;Initial Catalog=QLInternet;Integrated Security=True" SettingsObjectName="QLInternetDAL.Properties.Settings" SettingsPropertyName="QLInternetConnectionString" Provider="System.Data.SqlClient" />
+  <Table Name="dbo.DichVu" Member="DichVus">
+    <Type Name="DichVu">
+      <Column Name="TenDV" Type="System.String" DbType="Char(50) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="GiaDV" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.LichSu" Member="LichSus">
+    <Type Name="LichSu">
+      <Column Name="NgayGD" Type="System.DateTime" DbType="DateTime NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="TenTK" Type="System.String" DbType="Char(200)" CanBeNull="true" />
+      <Column Name="TienThem" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TGThem" Type="System.Double" DbType="Float" CanBeNull="true" />
+    </Type>
+  </Table>
+  <Table Name="dbo.TaiKhoan" Member="TaiKhoans">
+    <Type Name="TaiKhoan">
+      <Column Name="TenTK" Type="System.String" DbType="Char(200) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="MatKhau" Type="System.String" DbType="VarChar(200) NOT NULL" CanBeNull="false" />
+      <Column Name="TrangThai" Type="System.Boolean" DbType="Bit" CanBeNull="true" />
+      <Column Name="TongTG" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Column Name="TGconLai" Type="System.Double" DbType="Float" CanBeNull="true" />
+      <Association Name="TaiKhoan_ThongTinTK" Member="ThongTinTK" ThisKey="TenTK" OtherKey="TenTK" Type="ThongTinTK" Cardinality="One" />
+    </Type>
+  </Table>
+  <Table Name="dbo.ThongTinTK" Member="ThongTinTKs">
+    <Type Name="ThongTinTK">
+      <Column Name="TenTK" Type="System.String" DbType="Char(200) NOT NULL" IsPrimaryKey="true" CanBeNull="false" />
+      <Column Name="SDT" Type="System.String" DbType="Char(10)" CanBeNull="true" />
+      <Column Name="Email" Type="System.String" DbType="Char(200)" CanBeNull="true" />
+      <Association Name="TaiKhoan_ThongTinTK" Member="TaiKhoan" ThisKey="TenTK" OtherKey="TenTK" Type="TaiKhoan" IsForeignKey="true" />
+    </Type>
+  </Table>
+</Database>

@@ -1,0 +1,9 @@
+E:\DA_Winform\QLinternet\QLInternetDAL\obj\Debug\QLInternetDAL.csprojAssemblyReference.cache
+E:\DA_Winform\QLinternet\QLInternetDAL\bin\Debug\QLInternetDAL.dll.config
+E:\DA_Winform\QLinternet\QLInternetDAL\bin\Debug\QLInternetDAL.dll
+E:\DA_Winform\QLinternet\QLInternetDAL\bin\Debug\QLInternetDAL.pdb
+E:\DA_Winform\QLinternet\QLInternetDAL\bin\Debug\QLInternetDTO.dll
+E:\DA_Winform\QLinternet\QLInternetDAL\bin\Debug\QLInternetDTO.pdb
+E:\DA_Winform\QLinternet\QLInternetDAL\obj\Debug\QLInternetDAL.csproj.CopyComplete
+E:\DA_Winform\QLinternet\QLInternetDAL\obj\Debug\QLInternetDAL.dll
+E:\DA_Winform\QLinternet\QLInternetDAL\obj\Debug\QLInternetDAL.pdb

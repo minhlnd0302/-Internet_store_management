@@ -1,0 +1,11 @@
+E:\DA_Winform\QLinternet\QLInternetBUS\bin\Debug\QLInternetBUS.dll
+E:\DA_Winform\QLinternet\QLInternetBUS\bin\Debug\QLInternetBUS.pdb
+E:\DA_Winform\QLinternet\QLInternetBUS\obj\Debug\QLInternetBUS.csprojAssemblyReference.cache
+E:\DA_Winform\QLinternet\QLInternetBUS\obj\Debug\QLInternetBUS.dll
+E:\DA_Winform\QLinternet\QLInternetBUS\obj\Debug\QLInternetBUS.pdb
+E:\DA_Winform\QLinternet\QLInternetBUS\bin\Debug\QLInternetDAL.dll
+E:\DA_Winform\QLinternet\QLInternetBUS\bin\Debug\QLInternetDTO.dll
+E:\DA_Winform\QLinternet\QLInternetBUS\bin\Debug\QLInternetDAL.pdb
+E:\DA_Winform\QLinternet\QLInternetBUS\bin\Debug\QLInternetDAL.dll.config
+E:\DA_Winform\QLinternet\QLInternetBUS\bin\Debug\QLInternetDTO.pdb
+E:\DA_Winform\QLinternet\QLInternetBUS\obj\Debug\QLInternetBUS.csproj.CopyComplete

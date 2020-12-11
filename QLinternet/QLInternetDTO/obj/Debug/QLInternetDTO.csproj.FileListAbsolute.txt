@@ -1,0 +1,4 @@
+E:\DA_Winform\QLinternet\QLInternetDTO\bin\Debug\QLInternetDTO.dll
+E:\DA_Winform\QLinternet\QLInternetDTO\bin\Debug\QLInternetDTO.pdb
+E:\DA_Winform\QLinternet\QLInternetDTO\obj\Debug\QLInternetDTO.dll
+E:\DA_Winform\QLinternet\QLInternetDTO\obj\Debug\QLInternetDTO.pdb
